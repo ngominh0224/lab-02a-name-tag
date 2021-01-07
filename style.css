@@ -7,13 +7,12 @@ body, html {
 
 
 .nametag { 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     border-radius: 5px;
     background-color: red;
     height: 350px;
     width: 400px;
+    grid-row:2/3;
+    grid-column:2/3;
 }
 
 h1 {
@@ -42,4 +41,19 @@ section {
     font-weight: bold;
     background-color: white;
     padding: 50px;
+}
+
+.change-green {
+    background-color: green;
+    color: black;
+}
+
+.change-blue {
+    background-color: blue;
+    color: black;
+}
+
+.change-yellow {
+    background-color: yellow;
+    color: black;
 }
